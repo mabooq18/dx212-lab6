@@ -38,3 +38,8 @@ function calculategrade(score) {
 }
 
 console.log(calculategrade(85));
+
+for (let i = 0; i < scores.length; i++) {
+    let grade = calculategrade(scores[i]);
+    console.log(`Score: ${scores[i]}, Grade: ${grade}`);
+}
